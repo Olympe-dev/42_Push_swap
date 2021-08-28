@@ -5,17 +5,20 @@
 1. Compile with make.
 2. Pass a series of int (up to 500) as arguments to the executable called push_swap. *(Ex. ./push_swap 2147483647 0 32498 126 -75456 -7619 321654)* There can be **no duplicate, no letters or other characters and no number that do not fit in an int**.
 3. It will print all the moves that need to be done to sort the list of int you passed as arguments.
-  * **pb** : pushes the int on top of stack A (the original series of int you gave the executable) to the top of stack B
-  * **pa** : the other way around
-  * **sa** : switches the first two elements of stack A
-  * **sb** : same but on stack B
-  * **ss** : both at the same time
-  * **ra** : the first element of stack A goes at the bottom. As a result, everything moves up one step as well
-  * **rb** : same but with stack B
-  * **rr** : both at the same time
-  * **rra** : the last element of stack A goes at the top. As a result, everything moves down one step as well
-  * **rrb** : same but with stack B
-  * **rrr** : both at the same time
+
+Instruction | What it does
+----------- | ------------
+**pb** | Pushes the int on top of stack A (the original series of int you gave the executable) to the top of stack B
+**pa** | The other way around
+**sa** | Switches the first two elements of stack A
+**sb** | Same but on stack B
+**ss** | Both at the same time
+**ra** | The first element of stack A goes at the bottom. As a result, everything moves up one step as well
+**rb** | Same but with stack B
+**rr** | Both at the same time
+**rra** | The last element of stack A goes at the top. As a result, everything moves down one step as well
+**rrb** | Same but with stack B
+**rrr** | Both at the same time
 
 ### How I decided to go about it
 
