@@ -1,6 +1,6 @@
 # 42_Push_swap
 
-## Write a sorting algorithm using only another stack and as fewer specific moves as possible
+**Write a sorting algorithm using only another stack and as fewer specific moves as possible**
 
 1. Compile with make.
 2. Pass a series of int (up to 500) as arguments to the executable called push_swap. *(Ex. ./push_swap 2147483647 0 32498 126 -75456 -7619 321654)* There can be **no duplicate, no other characters as figures except for - and + and no number that do not fit in an int**.
