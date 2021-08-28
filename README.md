@@ -3,8 +3,9 @@
 ## Write a sorting algorithm using only another stack and as fewer specific moves as possible
 
 1. Compile with make.
-2. Pass a series of int (up to 500) as arguments to the executable called push_swap. *(Ex. ./push_swap 2147483647 0 32498 126 -75456 -7619 321654)* There can be **no duplicate, no letters or other characters and no number that do not fit in an int**.
+2. Pass a series of int (up to 500) as arguments to the executable called push_swap. *(Ex. ./push_swap 2147483647 0 32498 126 -75456 -7619 321654)* There can be **no duplicate, no other characters as figures except for - and + and no number that do not fit in an int**.
 3. It will print all the moves that need to be done to sort the list of int you passed as arguments.
+
 
 Instruction | What it does
 ----------- | ------------
@@ -19,6 +20,7 @@ Instruction | What it does
 **rra** | The last element of stack A goes at the top. As a result, everything moves down one step as well
 **rrb** | Same but with stack B
 **rrr** | Both at the same time
+
 
 ### How I decided to go about it
 
