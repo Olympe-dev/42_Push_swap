@@ -1,6 +1,6 @@
 # 42_Push_swap
 
-## We had to write a sorting algorithm using only another stack and specific moves chosen by 42 and make it as optimal as possible (use as fewer moves as possible).
+## Write a sorting algorithm using only another stack and as fewer specific moves as possible
 
 1. Compile with make.
 2. Pass a series of int (up to 500) as arguments to the executable called push_swap. *(Ex. ./push_swap 2147483647 0 32498 126 -75456 -7619 321654)* There can be **no duplicate, no letters or other characters and no number that do not fit in an int**.
@@ -46,9 +46,12 @@ Instruction | What it does
 ### How many moves is that?
 
 You can simply add | wc -l so it counts the number of instructions were actually needed to sort the int you gave.
+
 In order to have 5/5 for 100 numbers, you had to have less than 700 moves and I usually had a little bit more.
 And in order to have 5/5 for 500 numbers, you had to have less than 5500 moves. To have 4/5, less than 7000. And again, I was often around that number.
+
 To test my code, I used a random numbers generator: https://numbergenerator.org/randomnumbergenerator/1-100#!numbers=100&low=-2147483648&high=2147483647&unique=true&csv=&oddeven=&oddqty=0&sorted=false&addfilters=
+
 
 ## Bonus
 
