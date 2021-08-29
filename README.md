@@ -1,4 +1,4 @@
-# 42_Push_swap
+# Project 03: 42_Push_swap
 
 **Write a sorting algorithm using only another stack and as fewer specific moves as possible**
 
