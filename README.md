@@ -1,6 +1,6 @@
-# Project 03: 42_Push_swap
+# Project 03: 42_push_swap
 
-**Writing a sorting algorithm using only another stack and as fewer specific moves as possible**
+## Writing the most efficient sorting algorithm given only specific moves
 
 1. Compile with make.
 2. Pass a series of int (up to 500) as arguments to the executable called push_swap. *(Ex. ./push_swap 2147483647 0 32498 126 -75456 -7619 321654)* There can be **no duplicate, no other characters as figures except for - and + and no number that do not fit in an int**.
@@ -55,9 +55,9 @@ And in order to have 5/5 for 500 numbers, you had to have less than 5500 moves. 
 To test my code, I used a random numbers generator: https://numbergenerator.org/randomnumbergenerator/1-100#!numbers=100&low=-2147483648&high=2147483647&unique=true&csv=&oddeven=&oddqty=0&sorted=false&addfilters=
 
 
-## Bonus
+### Bonus
 
-### We could write a checker for that program.
+We could write a checker for that program as a bonus.
 
 1. When you compiled push_swap with make, it also compiled the bonus part and created the executable checker.
 2. It kind of completes push_swap as it works the other way around. You pass the executable checker a series of int (between 1 and 500 again) and checker will do the same tests to make sure the list is okay (ac >= 2, just figures or - or +, no duplicate).
