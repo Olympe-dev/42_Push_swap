@@ -2,10 +2,12 @@
 
 ## Writing the most efficient sorting algorithm given only specific moves
 
+</br>
+
 1. Compile with make.
 2. Pass a series of int (up to 500) as arguments to the executable called push_swap. *(Ex. ./push_swap 2147483647 0 32498 126 -75456 -7619 321654)* There can be **no duplicate, no other characters as figures except for - and + and no number that do not fit in an int**.
 3. It will print all the moves that need to be done to sort the list of int you passed as arguments.
-
+</br>
 
 Instruction | What it does
 ----------- | ------------
@@ -21,8 +23,7 @@ Instruction | What it does
 **rrb** | Same but with stack B
 **rrr** | Both at the same time
 
-
-### How I decided to go about it
+### How I decided to go about it?
 
 1. I check args : at least two of them, only figures (no letters or other characters, apart from - or +)
 2. I create the array of long (stack A) with the numbers received and then I check if none of them are < -2147483648 or > 2147483647, if there is no duplicate.
@@ -53,7 +54,6 @@ In order to have 5/5 for 100 numbers, you had to have less than 700 moves and I 
 And in order to have 5/5 for 500 numbers, you had to have less than 5500 moves. To have 4/5, less than 7000. And again, I was often around that number.
 
 To test my code, I used a random numbers generator: https://numbergenerator.org/randomnumbergenerator/1-100#!numbers=100&low=-2147483648&high=2147483647&unique=true&csv=&oddeven=&oddqty=0&sorted=false&addfilters=
-
 
 ### Bonus
 
