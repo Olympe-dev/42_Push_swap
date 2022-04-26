@@ -8,7 +8,9 @@
 
 </br>
 1. Compile with make.
+</br>
 2. Pass a series of int (up to 500) as arguments to the executable called push_swap. *(Ex. ./push_swap 2147483647 0 32498 126 -75456 -7619 321654)* There can be **no duplicate, no other characters as figures except for - and + and no number that do not fit in an int**.
+</br>
 3. It will print all the moves that need to be done to sort the list of int you passed as arguments.
 </br>
 
